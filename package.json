@@ -5,12 +5,16 @@
     "main": "index.js",
     "scripts": {
         "format": "npx prettier --write .",
+        "lint": "npx eslint .",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "eslint": "^8.26.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
         "husky": "^3.1.0",
         "prettier": "^2.7.1",
         "pretty-quick": "^3.1.3"
